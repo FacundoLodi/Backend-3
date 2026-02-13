@@ -24,7 +24,6 @@ http://localhost:8080
 
 ## Generar Usuarios Mock (NO guarda en DB)
 
-  Método    Endpoint
   --------- ------------------------------------------------
   **GET**   `http://localhost:8080/api/mocks/mockingusers`
 
@@ -37,7 +36,6 @@ Pets array vacío
 
 ## Generar Mascotas Mock (NO guarda en DB)
 
-  Método    Endpoint
   --------- -----------------------------------------------
   **GET**   `http://localhost:8080/api/mocks/mockingpets`
 
@@ -49,7 +47,6 @@ Fecha de nacimiento aleatoria
 
 ## Generar e Insertar Datos en la Base
 
-  Método     Endpoint
   ---------- ------------------------------------------------
   **POST**   `http://localhost:8080/api/mocks/generateData`
 
@@ -74,7 +71,6 @@ Devuelve mensaje de confirmación
 
 ## Obtener Todos los Usuarios (Guardados en DB)
 
-  Método    Endpoint
   --------- -----------------------------------
   **GET**   `http://localhost:8080/api/users`
 
@@ -88,7 +84,6 @@ Devuelve todos los usuarios almacenados en MongoDB.
 
 ## Obtener Todas las Mascotas (Guardadas en DB)
 
-  Método    Endpoint
   --------- ----------------------------------
   **GET**   `http://localhost:8080/api/pets`
 
